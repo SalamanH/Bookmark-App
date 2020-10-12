@@ -89,10 +89,7 @@ function FetchBookmarks()
         // Create bookmarks array in local storage
         bookmarks = 
         [
-            {
-                name: 'Salaman',
-                url: 'https://youtube.com',
-            },
+            
         ];
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
